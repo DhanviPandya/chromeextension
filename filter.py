@@ -23,7 +23,7 @@ def delete_lines_with_words(input_file_path, words_to_delete, output_file_path):
 def main():
     input_file_path = 'comments.txt'  # Replace with your input file's path
     output_file_path = 'nicecomments.txt'  # Replace with your desired output file path
-    words_to_delete = ['hate', 'stupid', 'ugly','fake','ashamed','bad','suck','embarrassing','cringey','overrated','terrible', ' mess']  # List of words you want to filter out
+    words_to_delete = ['hate', 'stupid', 'ugly','fake','ashamed','bad','suck','embarrassing','cringey','overrated','terrible', ' mess','tacky', 'give up','waste','awful','joke, right' ]  # List of words you want to filter out
     delete_lines_with_words(input_file_path, words_to_delete, output_file_path)
 
 if __name__ == "__main__":
